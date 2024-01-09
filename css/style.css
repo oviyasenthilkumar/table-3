@@ -1,0 +1,36 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+table,td,th{
+	border:1px none #fff;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size:9px;
+}
+th{
+	color:#fff;
+}
+td{
+	color:#296e64;
+}
+tr:first-child{
+	background-color:#3c9ba8;
+}
+tr:nth-child(3), tr:nth-child(5){
+	background-color:rgba(189, 219, 225, 0.8);
+}
+table{
+	background-color:rgba(229, 237, 239, 0.36);
+	padding:5px;
+}
+td,th{
+	padding:10px 15px;
+}
+table{
+	margin:5px;
+}
+
+td:first-child{
+	text-align:center;
+}
